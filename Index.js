@@ -33,13 +33,7 @@ const sidebar = document.querySelector("aside");
 
 
 menuBtn.addEventListener('click',() => {
-    if(sidebar.style.display != 'block'){
-        sidebar.style.display = 'block';
-    }
-    else{
-        sidebar.style.display = 'none';
-    }
-    
+    sidebar.style.display = 'block';
 })
 
 closeBtn.addEventListener('click', () => {
